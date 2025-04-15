@@ -1,9 +1,7 @@
 //
 //  TodoViewModel.swift
 //  todoList
-//
-//  Created by yurim on 2021/07/20.
-//  Copyright © 2021 yurim. All rights reserved.
+//  Created by Anish Gurusankar on 15/04/25.
 //
 
 import Foundation
