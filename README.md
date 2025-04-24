@@ -1,28 +1,17 @@
-# Daily Check
-![Swift](https://img.shields.io/badge/Swift-5.2-orange.svg) ![Xcode](https://img.shields.io/badge/Xcode-11.6-blue.svg)    
-DailyCheck makes it easy to manage your to-dos by date.   
+# Todo App for iOS
 
-## App Store Download
-- en : https://apps.apple.com/kr/app/dailycheck-to-do-list/id1544950171?l=en
-- ko : https://apps.apple.com/kr/app/데일리체크-오늘의-할-일/id1544950171
+This is a straightforward and intuitive todo list application designed for iOS. It helps you stay organized by allowing you to easily manage your tasks.
 
-## Features
-- MVVM Architecture Pattern
-- Using [RxSwift](https://github.com/ReactiveX/RxSwift)
-- Using [FSCalendar](https://github.com/WenchaoD/FSCalendar#screenshots)
-- Using Storyboard with xib
-- Unit Testable
-- Using Autolayout
-- Save data in UserDefaults using JSONEncoder/Decoder
-- Navigating between view controllers with protocol
+## Key Features
 
-## Screenshots
-#### Light Mode
-|![](/Image/light+dailytasks.png)|![](/Image/light+createtask.png)|
-|----|----|
-|![](/Image/light+calendar+month.png)|![](/Image/light+changeorder.png)|
+* **Effortless Task Creation:** Quickly add new todos with just a few taps.
+* **Clear Task Display:** View all your pending and completed tasks in an easy-to-read list.
+* **Simple Completion Toggle:** Mark tasks as done with a single tap. Completed tasks are visually distinguished.
+* **Quick Task Deletion:** Remove unwanted tasks with a simple swipe gesture.
 
-#### Dark Mode
-|![](/Image/dark+dailytasks.png)|![](/Image/dark+createtask.png)|
-|----|----|
-|![](/Image/dark+calendar+month.png)|![](/Image/dark+changeorder.png)|
+## How to Use the App
+
+1.  **Adding a Todo:** Look for an "Add" button (often a "+" icon). Tap it to enter the text of your new todo item and save it.
+2.  **Viewing Your Todos:** Your main screen will display a list of all your current todos.
+3.  **Marking as Complete:** Tap on a todo item to toggle its completion status. Completed items might be visually different (e.g., strikethrough, different color).
+4.  **Deleting a Todo:** Swipe left on a todo item in the list. A "Delete" button should appear; tap it to remove the task.
